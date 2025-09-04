@@ -1,0 +1,116 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/automated
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/automated/src/pages
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/automated/src/ui/lifecycle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/automated/src/ui/root-view/mymodule
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/automated/src/xml-declaration/mymodulewithxml
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/automated/src/xml-declaration
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/toolbox
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/ui
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/core/css-value
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/core/css
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/core/js-libs/easysax
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/core
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/devtools
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/types-android
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/types-ios
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/types-minimal
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/types
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/ui-mobile-base
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/webpack5
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/winter-tc
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /tools/workspace-plugin
+    schedule:
+      interval: daily
